@@ -35,7 +35,8 @@ button.addEventListener("click", () => {
     playAgain.style.background = "blue";
     playAgain.style.color = "yellow";
     playAgain.style.fontSize = "20px";
-    playAgain.style.marginTop = "5px";
+    playAgain.style.margin = "auto";
+
     currentScore.innerHTML++;
     highScore > currentScore.innerHTML
       ? (highScore = highScore)
